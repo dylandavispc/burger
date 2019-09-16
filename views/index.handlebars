@@ -1,0 +1,21 @@
+<h1>Krusty Krab Patty-Thon!!!</h1>
+
+<h2>Un-Eaten Krabby Patties</h2>
+
+<ul>
+    {{#each burgers}}
+        {{#unless eaten}}
+            {{> burgers/burger-block eaten=true}}
+        {{/unless}}
+    {{/each}}
+</ul>
+
+<h2>Eaten Krabby Patties</h2>
+
+<ul>
+    {{#each burgers}}
+        {{#if eaten}}
+            {{> burgers/burger-block eaten=false}}
+        {{/if}}
+    {{/each}}
+</ul>
