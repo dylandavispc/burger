@@ -27,7 +27,7 @@ $(function() {
 
         let newBurger = {
             name: $("#ca").val().trim(),
-            eaten: $("#pattyPic").val().trim()
+            img: $("#pattyPic").val().trim()
         };
 
         //SENDING POST REQUEST

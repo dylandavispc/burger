@@ -24,10 +24,10 @@ router.get("/", function( req, res ) {
 // POST
 router.post("/api/burgers", function(req, res) {
     burger.create([
-        "name", "img", "eaten"
+        "name", "img"
     ], 
     [
-        req.body.name, req.body.img, req.body.eaten
+        req.body.name, req.body.img
     ], 
     function(result) {
         res.json({ id: result.insertId 
