@@ -17,6 +17,4 @@
 2. Finish.
 
 ***ACT 3: GAME***
-1. Turn website into game where customers come in and eat burgers, when finished you get to create your own.
-
-2. Advance game where you must create the correct burger for the customers.
+1. Add databases of characters that will can eat burgers.  You can then create your own character with img.
